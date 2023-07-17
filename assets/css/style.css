@@ -98,25 +98,37 @@
     to {left: 100%;}
 }
 
-/*** Topbar End ***/
-
+/*** Topbar End ** **/
+.navbar-bg{
+background: #f6f6f6 !important;
+border-bottom: 5px solid red !important;
+}
 
 /*** Navbar Start ***/
 .navbar .navbar-nav {
-    padding: 15px 0;
-}
+    height: 70px !important;
+    margin: auto;
+  }
 
 .navbar .navbar-nav .nav-link {
-    padding: 10px;
-    color: var(--bs-white);
+
+    padding: 20px 10px;
+    color: var(--bs-primary) !important;
     font-size: 18px;
+    font-weight: 500;
     outline: none;
+    text-transform: uppercase;
+
     
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
+
+ .navbar .navbar-nav .nav-link:hover,
+
+ .navbar .navbar-nav .nav-link.active {
     color: var(--bs-secondary) !important;
+    background: var(--bs-primary);
+
 }
 
 .navbar .dropdown-toggle::after {
