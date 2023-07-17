@@ -101,7 +101,7 @@
 /*** Topbar End ** **/
 .navbar-bg{
 background: #f6f6f6 !important;
-border-bottom: 5px solid red !important;
+border-bottom: 2px solid var(--bs-primary) !important;
 }
 
 /*** Navbar Start ***/
@@ -657,7 +657,14 @@ border-bottom: 5px solid red !important;
 
 
 /*** Footer Start ***/
+.footer{
+background: rgb(224, 224, 224) !important;
+}
+.footer p,footer a {
+ color: rgb(43, 43, 44) !important;
+ font-weight: 500;
 
+}
 .footer .short-link a,
 .footer .help-link a,
 .footer .contact-link a {
